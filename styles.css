@@ -750,6 +750,13 @@ button {
   line-height: 1.55;
 }
 
+.legal-lede {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 0.975rem;
+  line-height: 1.65;
+}
+
 .legal-body section {
   margin-bottom: 2.25rem;
 }
@@ -811,6 +818,51 @@ button {
 .legal-body strong {
   color: var(--text);
   font-weight: 600;
+}
+
+/* Support page */
+
+.support-contact {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem 1.5rem;
+  margin: 0 0 2.5rem;
+  padding: 1.5rem 1.6rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-2xl);
+  box-shadow: var(--shadow);
+}
+
+.support-contact-label {
+  margin: 0;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.support-email {
+  display: inline-block;
+  margin-top: 0.35rem;
+  font-size: 1.125rem;
+  font-weight: 650;
+  letter-spacing: -0.3px;
+  color: var(--text);
+}
+
+.support-email:hover {
+  color: var(--sage-dark);
+}
+
+.support-contact-note {
+  margin: 0.45rem 0 0;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
 }
 
 /* Final CTA */
