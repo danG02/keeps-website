@@ -9,6 +9,7 @@ Marketing site for **Keeps** — a personal product journal for iOS and Android.
 | `index.html` | Landing page |
 | `privacy.html` | Privacy Policy (App Store / Play Store) |
 | `terms.html` | Terms of Use (App Store / Play Store / in-app) |
+| `support.html` | Support URL (App Store / Play Store) |
 | `styles.css` | Shared styles |
 | `script.js` | Header scroll state & reveal animation |
 | `img/` | Icons, favicon, hero mockup |
@@ -35,7 +36,7 @@ No build step — Pages serves these files as-is.
 
 - Privacy Policy: [privacy.html](privacy.html)
 - Terms of Use: [terms.html](terms.html)
-- Support: [my.keeps.app@gmail.com](mailto:my.keeps.app@gmail.com)
+- Support: [support.html](support.html) — [my.keeps.app@gmail.com](mailto:my.keeps.app@gmail.com)
 
 ## License
 
